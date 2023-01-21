@@ -2,4 +2,4 @@
     session_start();
     session_destroy();
 ?>
-<meta http-equiv="refresh" content="0;url=logout.php" />
+<meta http-equiv="refresh" content="0;url=login.php" />
