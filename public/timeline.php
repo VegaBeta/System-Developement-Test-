@@ -71,7 +71,7 @@ function bodyFilter (string $body): string
 ?>
 
 <div>
-  現在 <?= htmlspecialchars($user['name']) ?> (ID: <?= $user['id'] ?>) さんでログイン中　/ <?php  echo "<a href=\"logout.php\">[ログアウト]</a></p>"; ?>
+  現在 <?= htmlspecialchars($user['name']) ?> (ID: <?= $user['id'] ?>) さんでログイン中　/ <?php  echo "<a href=\"logout.php\">ログアウト</a></p>"; ?>
 </div>
 <div style="margin-bottom: 1em;">
   <a href="/setting/index.php">設定画面</a>
